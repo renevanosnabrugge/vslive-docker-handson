@@ -1,12 +1,12 @@
 # Hands-on labs Introduction to Docker
 
 ## Exercise 07: Using docker-compose to orchestrate multiple containers
-In this exercise we want you to experiment with docker-compose. It is graet that you can run one container, but what if you need more
+In this exercise we want you to experiment with docker-compose. It is great that you can run one container, but what if you need more
 
 * First clone the github repository https://github.com/renevanosnabrugge/vslive2020-cw.git in a directory on your local machine
 * Open the solution in Visual Studio and build
 
-You can start the solution, but it will not run. There is no database, and there are dependencies in the projects. Let's try to solve that woth docker
+You can start the solution, but it will not run. There is no database, and there are dependencies in the projects. Let's try to solve that with docker
 * Switch you docker client to use Linux containers by using the icon in the tray
 
 ## Run a SQL Server container
@@ -25,7 +25,7 @@ docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Pass@word" -p 5433:1433 -ti mcr.mi
 - Modify the appsettings.json of the Leaderboard.webapi project to point to localhost,5433 and run the project. Try to run the Get scores and test the results
 
 ## Running the application in containers
-Now we are going to run the application in a container. That is 2 containers. 1 for the API and 1 for the UI
+Now we are going to run the application in a container. Or actually, 2 containers. 1 for the API and 1 for the UI
 
 - Open a command line and navigate to the **root* of your solution. (where the sln file resides)
 - Build the docker file from this location
@@ -73,5 +73,5 @@ Your website is running. Assume that you want to have more instances of the UI. 
 ```
 docker-compose up --scale gamingwebapp=10
 ```
->But how do balance the load?
+>But how do you balance the load?
 
