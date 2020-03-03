@@ -1,6 +1,6 @@
 # Hands-on labs Introduction to Docker
 
-## Exercise 07: Using docker-compose to orchestrate multiple containers
+## Exercise 09: Using docker-compose to orchestrate multiple containers
 In this exercise we want you to experiment with docker-compose. It is graet that you can run one container, but what if you need more
 
 * First clone the github repository https://github.com/renevanosnabrugge/vslive2020-cw.git in a directory on your local machine

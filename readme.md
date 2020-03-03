@@ -8,4 +8,6 @@ In this repository you find exercises for the Docker Hands-On parts of the works
 - [04. Windows and Hyper-V Containers](04.%20Windows%20and%20Hyper-V%20Containers)
 - [05. Push to an Azure Container Registry](05.%20Push%20to%20an%20Azure%20Container%20Registry)
 - [06. Volume mappings to modify files in the container](06.%20Volume%20mappings%20to%20modify%20files%20in%20the%20container)
-- [07. Docker compose](07.%20Docker%20compose)
+- [07. Running Linux Containers](07.%20Running%20Linux%20Containers)
+- [08. Setting up a network](08.%20Setting%20up%20a%20Network)
+- [09. Docker compose](09.%20Docker%20compose)
