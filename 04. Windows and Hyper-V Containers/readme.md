@@ -19,7 +19,7 @@ docker run --isolation hyperv -d mcr.microsoft.com/windows/servercore:1809 ping 
 docker top [containerid]
 ```
 
-- start a powershell command promopt and get process on your local machines
+- start a powershell command prompt and get process on your local machines
 ```
 get-process -Name ping
 get-process -Name vmwp
